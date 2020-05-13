@@ -25,7 +25,7 @@
 import sys
 sys.path.append('../../sensel-lib-wrappers/sensel-lib-python')
 import sensel
-import binascii
+import binascii######
 
 if __name__ == "__main__":
 
@@ -43,4 +43,3 @@ if __name__ == "__main__":
         print "Rows: "+str(info.num_rows)
         error = sensel.close(handle)
         raw_input("Press Enter to exit...")
-    
